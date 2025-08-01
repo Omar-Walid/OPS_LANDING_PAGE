@@ -9,7 +9,7 @@
    ▲ Next.js 15.4.5
 
    Creating an optimized production build ...
- ✓ Compiled successfully in 5.0s
+ ✓ Compiled successfully in 6.0s
    Linting and checking validity of types ...
    Collecting page data ...
    Generating static pages (0/5) ...
@@ -21,7 +21,7 @@
    Collecting build traces ...
 
 Route (app)                                 Size  First Load JS
-┌ ○ /                                    37.9 kB         138 kB
+┌ ○ /                                    38.5 kB         138 kB
 └ ○ /_not-found                            990 B         101 kB
 + First Load JS shared by all            99.6 kB
   ├ chunks/4bd1b696-cf72ae8a39fa05aa.js  54.1 kB

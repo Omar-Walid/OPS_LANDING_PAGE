@@ -1,4 +1,4 @@
-const navItems = ["Features", "Pricing"];
+const navItems = ["Home", "History", "Past Events", "Services", "Contact us"];
 
 export default function Header() {
   return (
@@ -25,7 +25,7 @@ export default function Header() {
           {navItems.map((item, idx) => (
             <li key={idx}>
               <a
-                href={`#${item.toLowerCase()}`}
+                href={`#${item.toLowerCase().replace(" ", "-")}`}
                 className="hover:text-blue-400 transition"
               >
                 {item}
@@ -33,17 +33,6 @@ export default function Header() {
             </li>
           ))}
         </ul>
-        <div className="flex items-center space-x-4">
-          <a href="#" className="hover:text-blue-400 transition">
-            Log in
-          </a>
-          <a
-            href="#"
-            className="bg-blue-600 px-4 py-2 rounded hover:bg-blue-700 transition"
-          >
-            Try for free
-          </a>
-        </div>
       </nav>
     </header>
   );
