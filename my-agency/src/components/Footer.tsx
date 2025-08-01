@@ -2,30 +2,38 @@
 
 export default function Footer() {
   return (
-    <footer className="bg-black py-12 px-6 text-sm text-gray-400" id="section5">
-      <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-6">
+    <footer className="bg-black py-12 px-6 text-sm text-gray-400">
+      <div className="max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8">
         <div>
-          <h3 className="text-white text-lg font-semibold mb-2">Contact Us</h3>
-          <form className="space-y-4">
-            <input
-              type="email"
-              placeholder="Your email"
-              className="w-full p-2 rounded bg-gray-800 border border-gray-700"
-            />
-            <textarea
-              placeholder="Your message"
-              className="w-full p-2 rounded bg-gray-800 border border-gray-700"
-              rows={4}
-            ></textarea>
-            <button className="bg-blue-600 px-4 py-2 rounded hover:bg-blue-700 transition">Send</button>
-          </form>
+          <h3 className="text-white text-lg font-semibold mb-4">About Us</h3>
+          <ul className="space-y-2">
+            <li><a href="#" className="hover:text-white">Features</a></li>
+            <li><a href="#" className="hover:text-white">Pricing</a></li>
+            <li><a href="#" className="hover:text-white">Blog</a></li>
+          </ul>
         </div>
-        <div className="flex flex-col space-y-2">
-          <a href="#" className="hover:text-white">Privacy Policy</a>
-          <a href="#" className="hover:text-white">Terms of Service</a>
+        <div>
+          <h3 className="text-white text-lg font-semibold mb-4">Contact Us</h3>
+          <ul className="space-y-2">
+            <li><a href="#" className="hover:text-white">LinkedIn</a></li>
+            <li><a href="#" className="hover:text-white">Twitter</a></li>
+            <li><a href="#" className="hover:text-white">Support</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 className="text-white text-lg font-semibold mb-4">Legal</h3>
+          <ul className="space-y-2">
+            <li><a href="#" className="hover:text-white">Privacy policy</a></li>
+            <li><a href="#" className="hover:text-white">Terms of service</a></li>
+            <li><a href="#" className="hover:text-white">User policy</a></li>
+            <li><a href="#" className="hover:text-white">Returns policy</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 className="text-white text-lg font-semibold mb-4">buzzabout</h3>
+          <p>© 2025 buzzabout. All rights reserved.</p>
         </div>
       </div>
-      <div className="text-center mt-8">© 2025 Agency. All rights reserved.</div>
     </footer>
   );
 }
