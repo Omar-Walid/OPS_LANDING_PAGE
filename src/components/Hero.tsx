@@ -11,26 +11,13 @@ export default function Hero() {
         transition={{ duration: 1 }}
         className="text-center"
       >
-        <h1 className="text-4xl md:text-6xl font-extrabold mb-4">
-          Win customers by understanding their
+        <h1 className="text-6xl md:text-6xl font-extrabold mb-4">
+          OPS Advertising
         </h1>
         <p className="text-xl text-black-300 mb-8">
-          Get AI-driven insights from billions of discussions on social media.
+          The Future of Advertising, Tailored to your Needs.
         </p>
-        <div className="flex justify-center space-x-4">
-          <a
-            href="#"
-            className="bg-blue-600 px-6 py-3 rounded hover:bg-blue-700 transition"
-          >
-            Try for free
-          </a>
-          <a
-            href="#"
-            className="bg-gray-700 px-6 py-3 rounded hover:bg-gray-800 transition"
-          >
-            Book a demo
-          </a>
-        </div>
+        
       </motion.div>
     </section>
   );
