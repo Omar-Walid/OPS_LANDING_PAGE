@@ -14,7 +14,7 @@ export default function Hero() {
         <h1 className="text-4xl md:text-6xl font-extrabold mb-4">
           Win customers by understanding their
         </h1>
-        <p className="text-xl text-gray-300 mb-8">
+        <p className="text-xl text-black-300 mb-8">
           Get AI-driven insights from billions of discussions on social media.
         </p>
         <div className="flex justify-center space-x-4">
